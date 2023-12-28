@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .org-tree li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+ } */
+
+/* OrgChart.css */
+
+/* OrgChart.css */
+
+.org-tree {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 500px;
+}
+
+.org-tree ul {
+  padding: 0;
+  border-top: 1px solid #ddd; /* Add a line above each ul */
+}
+
+.org-tree li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  margin: 10px;
+  position: relative;
+}
+
+.org-tree li::before {
+  content: '';
+  position: absolute;
+  top: -10px; /* Adjust the position based on your preference */
+  left: 50%;
+  width: 0;
+  height: 10px;
+  border-left: 1px solid #ddd; /* Add a line above each li node */
+}
+
+.org-tree li::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 10px;
+  border-left: 1px solid #ddd; /* Add a line after each li node */
+}
+
+/* .card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.card h3 {
+  margin: 0;
+} */
+
+.div-inner {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 300px;
+  margin: 0 auto; 
+}
+
+.h3-inner {
+  margin-top: 0; 
+}
+
+.p-inner {
+  margin: 8px 0;
+}
+
+
+
+
+
